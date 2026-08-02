@@ -1,8 +1,23 @@
 aid: the-bot-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-bot-company.png
 name: The Bot Company
-description: 'The Bot Company is a company surfaced as a portfolio company of spark-capital, sv-angel
-  and added to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'The Bot Company is a San Francisco robotics startup founded in 2024 by Kyle Vogt,
+  the co-founder and former CEO of Cruise, building a helpful general-purpose robot for every home
+  to automate everyday household chores. Its team draws from Tesla, Cruise, OpenAI, Google, and Pixar,
+  and the company has raised roughly $301M (reportedly valued near $2B) from investors including
+  Spark Capital and SV Angel. As of this profile the company operates a marketing and careers site
+  only and publishes no public developer API, SDK, documentation, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/the-bot-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Robotics
+- Household Robots
+- Consumer Robotics
+- Automation
+- Hardware
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-bot-company-domain-security.yml
 - type: Website
   url: https://www.bot.co
+- type: TermsOfService
+  url: https://www.bot.co/terms
+- type: PrivacyPolicy
+  url: https://www.bot.co/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

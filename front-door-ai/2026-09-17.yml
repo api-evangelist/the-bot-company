@@ -1,0 +1,25 @@
+# Front Door AI Index — the-bot-company — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: the-bot-company
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bot.co
+  final_host: www.bot.co
+  ownership: own
+  owner: the-bot-company
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 6.8
+  words: 147
+  tiers:
+    agentic: 0
+    core: 0
+    model: 1
+  ambiguous: 0
+  top_terms:
+    OpenAI: 1
